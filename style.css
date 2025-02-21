@@ -471,6 +471,11 @@ section {
   background: none;
 }
 
+.blogs .box-container .box img {
+  width: 20%;
+  height: auto;
+}
+
 @media (max-width: 991px) {
   html {
     font-size: 55%;
