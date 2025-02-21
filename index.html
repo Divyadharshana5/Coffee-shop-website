@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Complete responsive coffee shop website design</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="images/logo.jpg" />
+      </a>
+
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#products">Products</a>
+        <a href="#review">Review</a>
+        <a href="#contact">Contact</a>
+        <a href="#blogs">Blogs</a>
+      </nav>
+
+      <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+      </div>
+
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <label for="search-box" class="fas fa-search"></label>
+      </div>
+
+      <div class="cart-items-container">
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="images/image1.png" alt="" />
+          <div class="content">
+            <h3>cart item 01</h3>
+            <div class="price">$15.99/-</div>
+          </div>
+        </div>
+        <br />
+
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="images/img2.png" alt="" />
+          <div class="content">
+            <h3>cart item 02</h3>
+            <div class="price">$15.01/-</div>
+          </div>
+        </div>
+        <br />
+
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="images/img3.png" alt="" />
+          <div class="content">
+            <h3>cart item 03</h3>
+            <div class="price">$12.99/-</div>
+          </div>
+        </div>
+        <br />
+
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="images/img4.png" alt="" />
+          <div class="content">
+            <h3>cart item 04</h3>
+            <div class="price">$10.19/-</div>
+          </div>
+        </div>
+        <a href="#" class="btn">checkout now</a>
+      </div>
+    </header>
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>Fresh coffee in the morning</h3>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore fugit
+          aliquid possimus quaerat, animi odio vero odit quia.
+        </p>
+        <a href="#" class="btn">Get yours now</a>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h1 class="heading"><span>about</span> us</h1>
+      <div class="row">
+        <div class="image">
+          <img src="images/about.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>What makes our coffee special?</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae
+            quas est laboriosam consectetur maiores voluptatibus provident cum
+            repellat aut aliquam enim fugit quasi cupiditate, error
+            reprehenderit! Alias dolorem quod sequi vero?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+            praesentium nostrum voluptates quasi molestias dolore obcaecati
+            omnis enim esse sint.
+          </p>
+          <a href="#" class="btn">Learn more!</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu" id="menu">
+      <h1 class="heading">Our<span> Menu</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="images/menu.jpg" alt="" />
+          <h3>Tasty and healthy</h3>
+          <div class="price">$15.99<span>$20.99</span></div>
+          <a href="#" class="btn">Add to cart!</a>
+        </div>
+
+        <div class="box">
+          <img src="images/menu2.jpg" alt="" />
+          <h3>Tasty and healthy</h3>
+          <div class="price">$12.09<span>$18.99</span></div>
+          <a href="#" class="btn">Add to cart!</a>
+        </div>
+
+        <div class="box">
+          <img src="images/menu3.jpg" alt="" />
+          <h3>Tasty and healthy</h3>
+          <div class="price">$14.66<span>$19.99</span></div>
+          <a href="#" class="btn">Add to cart!</a>
+        </div>
+
+        <div class="box">
+          <img src="images/menu4.jpg" alt="" />
+          <h3>Tasty and healthy</h3>
+          <div class="price">$11.99<span>$18.99</span></div>
+          <a href="#" class="btn">Add to cart!</a>
+        </div>
+
+        <div class="box">
+          <img src="images/menu5.jpg" alt="" />
+          <h3>Tasty and healthy</h3>
+          <div class="price">$19.99<span>$25.66</span></div>
+          <a href="#" class="btn">Add to cart!</a>
+        </div>
+
+        <div class="box">
+          <img src="images/menu6.jpg" alt="" />
+          <h3>Tasty and healthy</h3>
+          <div class="price">$10.55<span>$16.77</span></div>
+          <a href="#" class="btn">Add to cart!</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="product" id="product">
+      <h1 class="heading">Our<span> Products</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"> </a>
+            <a href="#" class="fas fa-heart"> </a>
+            <a href="#" class="fas fa-eye"> </a>
+          </div>
+          <div class="image">
+            <img src="images/product.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h1>Fresh coffee</h1>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">$15.99<span>$20.99</span></div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"> </a>
+            <a href="#" class="fas fa-heart"> </a>
+            <a href="#" class="fas fa-eye"> </a>
+          </div>
+          <div class="image">
+            <img src="images/pro2.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h1>Fresh coffee</h1>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">$17.19<span>$23.97</span></div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"> </a>
+            <a href="#" class="fas fa-heart"> </a>
+            <a href="#" class="fas fa-eye"> </a>
+          </div>
+          <div class="image">
+            <img src="images/pro3.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h1>Fresh coffee</h1>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">$15.55<span>$20.55</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="review" id="review">
+      <h1 class="heading">Customer's<span> Review</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum
+            sapiente facilis, praesentium blanditiis recusandae accusamus ad.
+            Repellendus, ad excepturi vero quae pariatur magni esse illo quaerat
+            vel commodi tempora quas.
+          </p>
+          <img src="images/dv.jpg" class="user" alt="" />
+          <h3>Dvithi</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+        <div class="box">
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum
+            sapiente facilis, praesentium blanditiis recusandae accusamus ad.
+            Repellendus, ad excepturi vero quae pariatur magni esse illo quaerat
+            vel commodi tempora quas.
+          </p>
+          <img src="images/re3.jpg" class="user" alt="" />
+          <h3>Dev</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+        <div class="box">
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum
+            sapiente facilis, praesentium blanditiis recusandae accusamus ad.
+            Repellendus, ad excepturi vero quae pariatur magni esse illo quaerat
+            vel commodi tempora quas.
+          </p>
+          <img src="images/re2.jpg" class="user" alt="" />
+          <h3>Reshma</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>Contact</span> Us</h1>
+      <div class="row">
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30153.795506882336!2d72.84072450000001!3d19.141650499999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1740134058960!5m2!1sen!2sin"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+
+        <form action="">
+          <h3>Get in touch</h3>
+          <div class="inputBox">
+            <span class="fas fa-user"></span>
+            <input type="text" placeholder="name" />
+          </div>
+
+          <div class="inputBox">
+            <span class="fas fa-envelope"></span>
+            <input type="email" placeholder="email" />
+          </div>
+
+          <div class="inputBox">
+            <span class="fas fa-phone"></span>
+            <input type="number" placeholder="number" />
+          </div>
+
+          <input type="Submit" value="Contact now" class="btn" />
+        </form>
+      </div>
+    </section>
+
+    <section class="blogs" id="blogs">
+      <h1 class="heading">Our <span> blogs</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="" alt="" />
+          </div>
+          <div class="content">
+            <a href=""></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
